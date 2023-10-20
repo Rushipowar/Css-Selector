@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+button{
+    padding: 15px 35px;
+    background-color: royalblue;
+    color: white;
+    border: none;
+    font-size: 17px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+button:hover{
+    box-shadow: 10px 5px 5px gray;
+}

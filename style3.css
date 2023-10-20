@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+   text-align: center;
+   margin-top: 50px;
+}
+h1::after{
+    content: "Selector";
+    margin: 20px;
+}
+h1::before{
+    content: "Pseudo";
+}
